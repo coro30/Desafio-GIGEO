@@ -1,0 +1,32 @@
+.article {
+
+    h2 {
+        font-family: $spartan;
+        font-size: $small;
+        margin-bottom: 1em;
+        margin-top: 1em;
+        text-align: center;
+    }
+
+    
+
+    @include respond-to ($bp-md) {
+        h2 {
+            margin-left: 2em;
+            text-align: left;
+            }       
+    }
+
+    @include respond-to ($bp-lg) {
+        h2 {
+            margin-left: 4em;
+        }
+        
+    }
+
+    @include respond-to ($bp-xl) {        
+        h2 {
+            margin-left: 4em;
+        }
+    }
+}

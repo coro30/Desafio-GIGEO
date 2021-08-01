@@ -1,0 +1,19 @@
+.header {
+    width: 100%;
+    height: 120px;
+    background-image: url(../img/image-banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @include respond-to ($bp-md) {
+        height: 200px;
+    
+    }
+
+    @include respond-to ($bp-lg) {
+        height: 300px;
+    
+    }
+}
+

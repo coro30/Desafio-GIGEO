@@ -1,0 +1,67 @@
+.nav {
+        font-family: $spartan;       
+        color: $black;
+        display: flex;
+        justify-content: space-between; //trabaja en eje principal
+        height: 7em;
+        align-items: center;//trabaja en eje transversal
+        
+        
+        .art {
+            font-size: $x-small;
+            font-weight: $light;        
+            margin-left: 19em;
+            
+            }
+    
+        .gigeo {
+            font-size: $large;
+            font-weight: $bold;
+            margin-top: 0;
+            margin-left: 1em;
+            }
+                  
+         .menu{
+             list-style: none;
+         }
+
+         .item-responsive{
+             display:none
+         }
+
+         i {
+            color: $black;
+            font-size: $large;
+            padding: 10px;
+        }
+        
+
+        
+    @include respond-to ($bp-md) {
+        .art {   
+            margin-left: 25em;
+        
+        }
+
+        .gigeo {
+            margin-left: 2.5em;
+        }
+    
+        .menu {
+            display: flex;            
+            margin: 0;
+            padding-top: 1em;
+            padding-right: 1em;
+        }   
+
+        li {
+            padding: 0 15px;
+            line-height: 7em;
+        }
+
+        .item-responsive{
+            display:initial;
+        }
+    }
+
+}

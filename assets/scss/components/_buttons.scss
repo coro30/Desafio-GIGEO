@@ -1,0 +1,30 @@
+
+    .botones {    
+        display: none;    
+}
+
+
+@include respond-to ($bp-md) {
+    .botones__submit1, .botones__submit2 {    
+        font-family: $noto;
+        font-family: $x-small;
+        font-weight: $light;
+        color: $White;    
+        height: 3em;
+        width: 6em;
+        border: none;    
+    }
+
+    a {
+        text-decoration: none;
+    }
+
+    .botones__submit1 {
+        background-color: $light-blue;
+    }
+    
+    .botones__submit2 {
+        background-color: $pink;        
+    }
+
+}

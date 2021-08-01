@@ -1,0 +1,59 @@
+.section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+
+    .name {
+        display: flex;
+        align-items: center;
+    }
+
+    .profile {
+        width: 70px;
+        height: 70px;
+        text-align: left;
+        border-radius: 50%;
+        margin-top: 1em;
+        margin-bottom: 1em;
+        margin-left: 2em;
+    }
+    
+    h1 {
+        font-family: $noto;
+        font-size: $medium;
+        font-weight: $bold;
+        margin-top: 0;
+        margin-left: 25px;        
+    }
+
+    p {
+        font-size: $small;
+        font-weight: $regular;
+        color: $light-grey;        
+        margin-left: 25px;
+    }
+}
+
+    @include respond-to ($bp-md) {
+        .section {
+            padding-right: 5em;
+            padding-left: 5em;
+    
+        }
+        .botones {
+            display: initial;
+        }
+    }
+
+    @include respond-to ($bp-lg) {
+        .section {
+            padding-right: 6em;
+            padding-left: 6em;
+            
+    
+        }
+    }
+
+
+    

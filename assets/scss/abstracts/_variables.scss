@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;700&family=Spartan:wght@600&display=swap');
+
+$noto: 'noto Sans JP', sans-serif;
+$spartan: 'Spartan', sans-serif;
+
+
+//font size
+$xx-large: 60px;
+$x-large: 50px;
+$large: 40px;
+$medium: 30px;
+$small: 20px;
+$x-small: 10px;
+
+//font weight
+$light: 300;
+$regular: 400;
+$semi-bold: 500;
+$bold: 700;
+
+
+
+//breakpoints
+$bp-sm:576px;
+$bp-md:768px;
+$bp-lg:992px;
+$bp-xl:1200px;
+
+//colores
+$White: #FFF;
+$light-grey: #6d6e57;
+$grey: #29302a;
+$black: black;
+$light-blue: rgb(152, 152, 177);
+$pink: rgb(226, 128, 144);
